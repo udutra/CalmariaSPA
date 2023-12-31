@@ -33,8 +33,8 @@ header nav ul a {
 }
 header #home {
   max-width: 1040px;
-  width: 80%;
   margin: 0 auto;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,4 +76,12 @@ header #home .btn-main {
   line-height: 18px;
   word-wrap: break-word;
   font-family: "Montserrat", sans-serif;
+}
+header #home .btn-main:hover {
+  background-color: #85A0FF;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
 }/*# sourceMappingURL=styles.css.map */
