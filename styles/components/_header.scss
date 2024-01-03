@@ -66,10 +66,10 @@ header{
             border: none;
             outline: none;
             border-radius: 66px;
-            background: variaveis.$cor-secundaria;
-            font-size: 1.3rem;
+            background: variaveis.$cor-terciaria;
+            @include mixins.ff-fs-cl(variaveis.$ft-textos, 1.3rem, white);
             &:hover{
-                background-color: variaveis.$cor-terciaria;
+                background-color: variaveis.$cor-secundaria;
             }
             
         }

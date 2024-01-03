@@ -64,11 +64,13 @@ header #home .btn-main {
   border: none;
   outline: none;
   border-radius: 66px;
-  background: #4E75FF;
+  background: #85A0FF;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
+  color: white;
 }
 header #home .btn-main:hover {
-  background-color: #85A0FF;
+  background-color: #4E75FF;
 }
 header #home .img-home {
   max-width: 474px;
